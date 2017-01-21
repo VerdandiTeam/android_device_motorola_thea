@@ -44,3 +44,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # inherit from the proprietary version
 -include vendor/motorola/thea/BoardConfigVendor.mk
+
+# Kernel cmdline
+BOARD_KERNEL_CMDLINE += selinux=0

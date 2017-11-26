@@ -47,3 +47,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Kernel cmdline
 BOARD_KERNEL_CMDLINE += selinux=0
+
+# SurfaceFlinger init
+BOARD_USE_MOTO_SF = true
